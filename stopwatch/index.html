@@ -8,11 +8,14 @@
 </head>
 <body>
     <div class="stopwatch">
-        <h1 id="displayTime">00:00:00</h1>
-        <div class="buttons">
-            <img onclick="watchStop()" src="images/stop.png" alt="not found">
-            <img onclick="watchStart()" src="images/play.png" alt="not found">
-            <img onclick="watchReset()" src="images/reset.png" alt="not found">
+        <!-- <H1 class="title">STOP WATCH</H1> -->
+        <div class="stopwatch">
+            <h1 id="displayTime">00:00:00</h1>
+            <div class="buttons">
+                <img id="stop" onclick="watchStop()" src="images/stop.png" alt="not found">
+                <img id="start" onclick="watchStart()" src="images/play.png" alt="not found">
+                <img id="reset" onclick="watchReset()" src="images/reset.png" alt="not found">
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
