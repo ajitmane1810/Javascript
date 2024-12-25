@@ -12,14 +12,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: auto;  
+    height: auto;
+    /* overflow: auto;   */
     background: linear-gradient(to right, rgba(0, 0, 128, 0.7), rgba(255, 0, 0, 0.7));
     background-size: cover;
     background-position: center;
-    overflow: hidden;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 100px;
+   
 }
 
 .title {
@@ -44,7 +45,7 @@ body {
     backdrop-filter: blur(100px);
     border: 2px solid rgb(31, 31, 36);
     width: 400px;
-    height: 80%;
+    /* height: 70%; */
     border-radius: 15px;
     margin: 20px;
     padding: 20px;
