@@ -1,5 +1,8 @@
 # Snake Game - JavaScript
 
+## Live Demo
+You can try the live version of the Stopwatch here: [Live Demo](https://snake-game-virid-chi.vercel.app/)
+
 ## Overview
 
 This is a simple yet addictive **Snake Game** built using **HTML**, **CSS**, and **JavaScript**. The game mimics the classic Snake game where the player controls a snake that grows in length each time it eats food. The objective is to avoid hitting the walls or the snake's own body while trying to eat as much food as possible to score points.
